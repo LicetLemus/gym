@@ -1,0 +1,9 @@
+function alphabet(sentence) {
+  // crear una constante con el alfabeto ingles
+  // revisar si la letra e la oracion esta incluida en el alfabeto
+
+    const englishAlphabet = /[a-z]+/g;
+    return sentence.includes(englishAlphabet);
+}
+
+console.log(alphabet("thequickbrownfoxjumpsoverthelazydog"));

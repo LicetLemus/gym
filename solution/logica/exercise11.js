@@ -88,3 +88,4 @@ function isInsured(person) {
 
     console.log(isInsured(person)); 
 
+

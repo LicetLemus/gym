@@ -1,12 +1,12 @@
 /* Moving Zeros To The End ------------------------------------------------ */
 
 function moveZeros(arr) {
-  let newArray = arr.filter((elemento) => elemento !== 0);
-  const zeros = arr.filter((elemento) => elemento === 0);
+    let newArray = arr.filter((elemento) => elemento !== 0);
+    const zeros = arr.filter((elemento) => elemento === 0);
 
-  const order = newArray.concat(zeros);
+    const order = newArray.concat(zeros);
 
-  return order;
+    return order;
 }
 
 console.log(moveZeros([false, 1, 0, 1, 2, 0, 1, 3, "a"]));

@@ -6,31 +6,9 @@ In event of a tie, return a. */
 
 
 function biggerTwo(a, b) {
-    let additionA = 0;
-    let additionB = 0;
-    // suma a
-    /*
-    for (let i = 0; i < a.length; i++) {
-        additionA = additionA + a[i]
-    }
-    // suma b
-    for (let j = 0; j < b.length; j++) {
-        additionB = additionB + b[j]
-    }
-
-    // comparacion de las sumas
-    if (additionA > additionB) {
-        return a;
-    } 
-    if (additionA === additionB) {
-        return a;
-    } else return b
-     */
-
-    let suma1 = a.reduce((acumulado, actual) => acumulado + actual)
-    let suma2 = b.reduce((acumulado, actual) => acumulado + actual)
-
-    return (suma1 >= suma2) ? a : b;
+    let addition1 = a.reduce((acumulado, actual) => acumulado + actual)
+    let addition2 = b.reduce((acumulado, actual) => acumulado + actual)
+    return (addition1 >= addition2) ? a : b;
 
 }
 

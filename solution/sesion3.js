@@ -1,8 +1,3 @@
-/* 1. In a certain language, KINEMARTOPHOBIA is written as KNIEAMROTPOHBAI.
-Based on this pattern, HILLARIOUS would be written as HIALRLIOSU.?*/
-
-// HLILRAIUOS
-
 /*2.Given two temperatures, return true if one is less than 0 and the other 
 is greater than 100.  */
 
@@ -52,6 +47,7 @@ console.log(reverse1([4, 5, 6]));
 so {1, 2, 3} becomes {3, 2, 1}. */
 // .trim() removes whitespace at the beginning and end of a string.
 // .replace() replaces whitespace in this case with an empty string.
+
 function noSpace(string) {
   return string.trim().replace(/\s/g, "");
 }
@@ -84,6 +80,7 @@ function countSameEnds(str) {
 }
 
 // codigo refactorizado
+
 function countSameEnds1(str) {
   const words = str
     .split(/\s+/)

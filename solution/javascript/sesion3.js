@@ -5,7 +5,7 @@ function temperatures(a, b) {
   return (a < 0 && b > 100) || (b < 0 && a > 100);
 }
 
-console.log(temperatures(120, 2));
+console.log(temperatures(120, 2)); // false
 
 /*2.Given 2 strings, a and b, return a string of the form short+long+short,
 with the shorter string on the outside and the longer string on the inside. 

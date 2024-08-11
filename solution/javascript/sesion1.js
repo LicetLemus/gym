@@ -14,7 +14,7 @@ function Add(arr) {
 }
 
 const result1 = Add([1, 3, 4, -3])
-console.log(result1)
+console.log(result1) // 8
 
 
 /*
@@ -41,7 +41,7 @@ function countPosAndSumNegatives(array) {
     return[countPositive, addNegative]
 }
 
-console.log(countPosAndSumNegatives(elements))
+console.log(countPosAndSumNegatives(elements)) // [10, -65]
 
 
 function countPosAndSumNegative(array) {
